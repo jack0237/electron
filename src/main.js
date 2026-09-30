@@ -1,11 +1,7 @@
 import { app, BrowserWindow } from 'electron';
 import path from 'node:path';
 import started from 'electron-squirrel-startup';
-
-
-const {app, BrowserWindow} = require('electron');
-const log =  require('electron-log'); 
-
+import log from 'electron-log';
 
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
